@@ -1,5 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
   }
   .header {
 padding: 80px; /* some padding */
@@ -64,10 +68,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 80px;
-  padding-right: 80px;
-  padding-bottom: 80px;
-  padding-left: 80px;
 
 }
 
@@ -88,7 +88,6 @@ body {
      border: 3px solid green;
      padding: 10px;
      float: left !important;
-     
 
 }
 
@@ -102,6 +101,10 @@ footer {
   background-color: #333;
   color: white;
   padding: 20px 0;
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
 }
 
 footer p {
@@ -121,20 +124,25 @@ footer ul li {
 .col-md-4 {
 
      background-color: #333;
-     display: inline-block
+     text-align: center;
 
 }
 
 .col-md-5 {
 
      background-color: #333;
-     display: inline-block
+     text-align: center;
       
 }
 
 .container {
 
      background-color: #333;
+     padding-top: 0px !important;
+     padding-right: 0px !important;
+     padding-bottom: 0px !important;
+     padding-left: 0px !important;
+
 
 }
 

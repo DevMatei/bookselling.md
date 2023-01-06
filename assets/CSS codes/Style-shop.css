@@ -59,4 +59,60 @@ ul {
     padding: 0;
     position: sticky;
     }
+
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+      
+      footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      footer ul li {
+        margin: 10px 0;
+      }
+      
+      .col-md-4 {
+      
+           background-color: #333;
+           display: inline-block
+      
+      }
+      
+      .col-md-5 {
+      
+           background-color: #333;
+           display: inline-block
+            
+      }
+      
+      .container {
+      
+           background-color: #333;
+           padding-top: 0px !important;
+           padding-right: 0px !important;
+           padding-bottom: 0px !important;
+           padding-left: 0px !important;
+      
+      
+      }
+      
+      .row {
+      
+           background-color: #333;
+      
+      }
+      
     
