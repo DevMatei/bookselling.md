@@ -1,9 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 80px;
-  padding-right: 80px;
-  padding-bottom: 80px;
-  padding-left: 80px;
   }
   .header {
 padding: 80px; /* some padding */
@@ -13,6 +9,10 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 color: rgba(246, 246, 246, 0.986); /* white text color */
+padding-top: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
 }
 
 /* Increase the font size of the <h1> element */
@@ -24,6 +24,10 @@ font-size: 40px;
 overflow: hidden; /* Hide overflow */
 background-color: #333; /* Dark background color */
 position: sticky;
+padding-top: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
 }
 
 /* Style the navigation bar links */
@@ -100,11 +104,10 @@ body {
 footer {
   background-color: #333;
   color: white;
-  padding: 20px 0;
-  padding-top: 0px !important;
-  padding-right: 0px !important;
-  padding-bottom: 0px !important;
-  padding-left: 0px !important;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 footer p {
