@@ -6,7 +6,7 @@
 	font-family: 'Poppins', 'sans-serif';
 }
 .section{
-	width: 100%;
+	width: auto;
 	height: 899px;
 	background-color: #ddd;
 }
