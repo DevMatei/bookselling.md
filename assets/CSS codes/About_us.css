@@ -25,7 +25,7 @@
 	width: 40%;
 }
 .image-section img{
-	width: 90%;
+	width: auto;
 	height: 750px;
 }
 .content-section .title{
