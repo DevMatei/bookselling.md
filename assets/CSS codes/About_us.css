@@ -7,7 +7,7 @@
 }
 .section{
 	width: auto;
-	height: auto;
+	height: 899px;
 	background-color: #ddd;
 }
 .container-1{
@@ -22,7 +22,7 @@
 }
 .image-section{
 	float: right;
-	width: 40%;
+	width: auto;
 }
 .image-section img{
 	width: auto;
