@@ -47,13 +47,6 @@
   background-color: var(--right-color);
   right: 0;
 }
-In this updated code, the .super container is set to have position: relative and overflow: hidden. Each side of the Super slider has the .side class, which is absolutely positioned within the .super container. The z-index of the sides is set to 1 to ensure they appear below other elements, such as the About Us section.
-
-Additionally, the left and right properties are set for the left and right sides respectively, aligning them to the left and right edges of the container.
-
-Please note that the CSS code assumes that the --left-color and --right-color variables are defined elsewhere in your CSS code or stylesheets.
-
-Once you apply this updated CSS, the Super slider and the About Us section should no longer interfere with each other.
 
 
 
