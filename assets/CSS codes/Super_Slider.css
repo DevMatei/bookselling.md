@@ -10,11 +10,11 @@
   --right-color: var(--c2);
 }
 
-body {
-  background-color: var(--dark);
-  margin: 0;
-}
+.super {
+ 
+    z-index: 2;  
 
+}
 .side {
   display: grid;
   height: 100vh;
