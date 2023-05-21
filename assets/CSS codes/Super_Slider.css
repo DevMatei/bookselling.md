@@ -11,54 +11,52 @@
 }
 
 .super {
- 
-    z-index: 2;  
-
-}
-.side {
-  display: grid;
-  height: 100vh;
+  position: relative;
   overflow: hidden;
-  place-items: center;
-  position: absolute;
-  width: 100%;
 }
 
-.side .title {
+.super .side {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.super .side .title {
   font-family: "Rubik", sans-serif;
   font-size: 8vw;
-  margin: 0 10vw;
+  margin: 0;
   width: 80vw;
+  color: white;
 }
 
-.side .fancy {
+.super .side .fancy {
   font-family: "Lobster", cursive;
   font-size: 1.3em;
   line-height: 0.8em;
+  color: white;
 }
 
 #left-side {
   background-color: var(--left-color);
-  width: 60%;
-  z-index: 2;
-}
-
-#left-side .title {
-  color: white;
-}
-
-#left-side .fancy {
-  color: var(--right-color);
+  left: 0;
 }
 
 #right-side {
   background-color: var(--right-color);
+  right: 0;
 }
+In this updated code, the .super container is set to have position: relative and overflow: hidden. Each side of the Super slider has the .side class, which is absolutely positioned within the .super container. The z-index of the sides is set to 1 to ensure they appear below other elements, such as the About Us section.
 
-#right-side .title {
-  color: var(--dark);
-}
+Additionally, the left and right properties are set for the left and right sides respectively, aligning them to the left and right edges of the container.
 
-#right-side .fancy {
-  color: white;
-}
+Please note that the CSS code assumes that the --left-color and --right-color variables are defined elsewhere in your CSS code or stylesheets.
+
+Once you apply this updated CSS, the Super slider and the About Us section should no longer interfere with each other.
+
+
+
+
+
+
