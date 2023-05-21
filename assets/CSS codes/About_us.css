@@ -9,8 +9,8 @@
 
 .section {
   height: 935px;
-  background-color: #ddd;
-  z-index: 1; 
+  position: relative;
+  z-index: 1;
 }
 
 .container-1 {
